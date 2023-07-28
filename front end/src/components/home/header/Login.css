@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+.login {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 200.8vh; */
+    position: sticky;
+    padding-right: 170px;
+    font-family: 'Chela One', cursive;
+    background-color: #f8f9fd;
+    background-image: url("https://i.pinimg.com/originals/33/93/b0/3393b04a2f206143b17f7a67a7ad5f0a.gif"); 
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+  }
+  
+  input[type="text"]{
+      height: 25px;
+      border: 1px solid grey;
+      color: #6a3818;
+  }
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid grey;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    font-family: 'Chela One', cursive;
+    padding: 2rem;
+    align-items: center;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 100px black;
+    background-color: ghostwhite;
+    /*background-image: url("https://res.cloudinary.com/dggrpzdnl/image/upload/v1681790552/download_f5uqim.jpg");*/ 
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    color: #442210;
+    font-size: 20px;
+  }
+  
+  .input-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    color: #e5b57d;
+    font-size: 20px;
+  }
+  .register{
+    text-align: right;
+    color: #e5b57d;
+    margin-top: 5px;
+  }

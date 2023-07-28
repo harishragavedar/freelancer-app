@@ -1,0 +1,121 @@
+/* Pricing.css */
+
+/* Styling for the decrement and increment buttons */
+.reducer1,
+.reducer2 {
+  background-color: #f50057;
+  color: white;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reducer1:hover,
+.reducer2:hover {
+  background-color: #d5004f;
+}
+
+/* Styling for the quantity display */
+.item-quantity {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Styling for the pricing cards */
+.Card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardHeader {
+  background-color: #f5f5f5;
+  padding: 12px;
+}
+
+.CardContent {
+  flex-grow: 1;
+}
+
+.CardActions {
+  padding: 12px;
+}
+
+/* Styling for the app bar */
+AppBar {
+  margin-bottom: 20px;
+}
+
+/* Styling for the footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Styling for the copyright text */
+Typography {
+  font-size: 0.8rem;
+}
+
+/* Styling for the main heading */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the subheading */
+h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for the pricing */
+h3 {
+  font-size: 3rem;
+}
+
+/* Styling for the price per month */
+h6 {
+  font-size: 1.5rem;
+}
+
+/* Styling for the description list */
+ul {
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Styling for the purchase button */
+button {
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+/* Styling for the link in the app bar */
+nav {
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
